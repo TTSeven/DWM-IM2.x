@@ -15,6 +15,15 @@
 		A11891DF1CC767EE00C6673B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A11891DD1CC767EE00C6673B /* LaunchScreen.storyboard */; };
 		A11891EA1CC767EE00C6673B /* DWM_IMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A11891E91CC767EE00C6673B /* DWM_IMTests.m */; };
 		A11891F51CC767EE00C6673B /* DWM_IMUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A11891F41CC767EE00C6673B /* DWM_IMUITests.m */; };
+		A118920F1CC76B8B00C6673B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A118920E1CC76B8B00C6673B /* MobileCoreServices.framework */; };
+		A11892111CC76B9100C6673B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A11892101CC76B9100C6673B /* CFNetwork.framework */; };
+		A11892131CC76BC400C6673B /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A11892121CC76BC400C6673B /* libsqlite3.tbd */; };
+		A11892151CC76BD200C6673B /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A11892141CC76BD200C6673B /* libstdc++.6.0.9.tbd */; };
+		A11892171CC76C0500C6673B /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A11892161CC76C0500C6673B /* libz.tbd */; };
+		A11892191CC76C1100C6673B /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A11892181CC76C1100C6673B /* libiconv.tbd */; };
+		A118921B1CC76C1C00C6673B /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A118921A1CC76C1C00C6673B /* libresolv.tbd */; };
+		A118921D1CC76C2600C6673B /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A118921C1CC76C2600C6673B /* libxml2.tbd */; };
+		A118921F1CC76C6D00C6673B /* EaseMobSDK in Resources */ = {isa = PBXBuildFile; fileRef = A118921E1CC76C6D00C6673B /* EaseMobSDK */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,16 @@
 		A11891F01CC767EE00C6673B /* DWM-IMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DWM-IMUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A11891F41CC767EE00C6673B /* DWM_IMUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWM_IMUITests.m; sourceTree = "<group>"; };
 		A11891F61CC767EE00C6673B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A118920E1CC76B8B00C6673B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		A11892101CC76B9100C6673B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		A11892121CC76BC400C6673B /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		A11892141CC76BD200C6673B /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		A11892161CC76C0500C6673B /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		A11892181CC76C1100C6673B /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		A118921A1CC76C1C00C6673B /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		A118921C1CC76C2600C6673B /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		A118921E1CC76C6D00C6673B /* EaseMobSDK */ = {isa = PBXFileReference; lastKnownFileType = folder; path = EaseMobSDK; sourceTree = "<group>"; };
+		A11892211CC76E7B00C6673B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +77,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A118921D1CC76C2600C6673B /* libxml2.tbd in Frameworks */,
+				A118921B1CC76C1C00C6673B /* libresolv.tbd in Frameworks */,
+				A11892191CC76C1100C6673B /* libiconv.tbd in Frameworks */,
+				A11892171CC76C0500C6673B /* libz.tbd in Frameworks */,
+				A11892151CC76BD200C6673B /* libstdc++.6.0.9.tbd in Frameworks */,
+				A11892131CC76BC400C6673B /* libsqlite3.tbd in Frameworks */,
+				A11892111CC76B9100C6673B /* CFNetwork.framework in Frameworks */,
+				A118920F1CC76B8B00C6673B /* MobileCoreServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +108,15 @@
 		A11891C31CC767ED00C6673B = {
 			isa = PBXGroup;
 			children = (
+				A118921E1CC76C6D00C6673B /* EaseMobSDK */,
+				A118921C1CC76C2600C6673B /* libxml2.tbd */,
+				A118921A1CC76C1C00C6673B /* libresolv.tbd */,
+				A11892181CC76C1100C6673B /* libiconv.tbd */,
+				A11892161CC76C0500C6673B /* libz.tbd */,
+				A11892141CC76BD200C6673B /* libstdc++.6.0.9.tbd */,
+				A11892121CC76BC400C6673B /* libsqlite3.tbd */,
+				A11892101CC76B9100C6673B /* CFNetwork.framework */,
+				A118920E1CC76B8B00C6673B /* MobileCoreServices.framework */,
 				A11891CE1CC767ED00C6673B /* DWM-IM */,
 				A11891E81CC767EE00C6673B /* DWM-IMTests */,
 				A11891F31CC767EE00C6673B /* DWM-IMUITests */,
@@ -118,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				A11891D01CC767ED00C6673B /* main.m */,
+				A11892211CC76E7B00C6673B /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -242,6 +279,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A118921F1CC76C6D00C6673B /* EaseMobSDK in Resources */,
 				A11891DF1CC767EE00C6673B /* LaunchScreen.storyboard in Resources */,
 				A11891DC1CC767EE00C6673B /* Assets.xcassets in Resources */,
 				A11891DA1CC767ED00C6673B /* Main.storyboard in Resources */,
@@ -362,7 +400,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -400,7 +438,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -412,8 +450,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/PrefixHaeder.pch";
 				INFOPLIST_FILE = "DWM-IM/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "ddasdsadas.DWM-IM";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -423,8 +464,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/PrefixHaeder.pch";
 				INFOPLIST_FILE = "DWM-IM/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "ddasdsadas.DWM-IM";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
