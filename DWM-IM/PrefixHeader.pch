@@ -2,7 +2,7 @@
 //  PrefixHeader.pch
 //  DWM-IM
 //
-//  Created by 业余班 on 16/4/20.
+//  Created by apple on 16/4/21.
 //
 //
 
@@ -11,6 +11,9 @@
 
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "EaseMob.h"
+#import "EaseMobHeaders.h"
 
 
 #endif /* PrefixHeader_pch */
