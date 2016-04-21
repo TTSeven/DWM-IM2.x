@@ -9,6 +9,18 @@
 #import "DWMLoginViewController.h"
 
 @interface DWMLoginViewController ()
+@property (weak, nonatomic) IBOutlet UIView *registerView;
+@property (weak, nonatomic) IBOutlet UIView *loginView;
+- (IBAction)registerClick:(UIButton *)sender;
+
+- (IBAction)loginClick:(UIButton *)sender;
+@property (weak, nonatomic) IBOutlet UITextField *passworkField;
+@property (weak, nonatomic) IBOutlet UITextField *userNameField;
+- (IBAction)forgetClick:(UIButton *)sender;
+@property (weak, nonatomic) IBOutlet UITextField *registerPasswork;
+@property (weak, nonatomic) IBOutlet UITextField *registerUserName;
+- (IBAction)registerBtnClick:(UIButton *)sender;
+
 
 @end
 
@@ -16,22 +28,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
+
+- (IBAction)registerClick:(UIButton *)sender {
+    NSLog(@"asd");
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (IBAction)loginClick:(UIButton *)sender {
 }
-*/
+- (IBAction)forgetClick:(UIButton *)sender {
+}
 
+- (IBAction)registerBtnClick:(UIButton *)sender {
+}
 @end
